@@ -1,4 +1,17 @@
 // Assignment code here
+const characterRange = document.getElementById
+('characterRange')
+const characterNumber = document.getElementById
+('characterNumber')
+
+characterNumber.addEventListener('input', syncCharacterAmount)
+characterRange.addEventListener('input', syncCharacterAmount)
+
+function syncCharacterAmount(e) {
+  const value = e.target.value
+  characterNumber.value = value
+  characterRange.value = value
+}
 
 
 // Get references to the #generate element

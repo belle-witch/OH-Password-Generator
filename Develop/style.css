@@ -14,7 +14,8 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: purple; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, pink, purple);
 }
 
 .wrapper {
@@ -32,7 +33,7 @@ header {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  border-radius: 20px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -40,6 +41,11 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+}
+
+.card-header {
+  margin: 0;
+  text-align: center;
 }
 
 .card-header::after {
@@ -52,8 +58,21 @@ header {
 
 .card-body {
   min-height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
 .card-footer {
   text-align: center;
 }
@@ -74,7 +93,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: hsl(300, 100%, 25%, 0.8);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -86,6 +105,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.5;
 }
 
 button[disabled] {
@@ -134,4 +157,13 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+img {
+  vertical-align: middle;
 }
