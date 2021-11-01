@@ -1,5 +1,8 @@
 #OH Password Generator
 
+![PGScreenshot](https://user-images.githubusercontent.com/86988180/139620410-6738fd7b-0af9-4603-a58a-d9e61b04ba53.jpg)
+
+
 #Project Description
 I have built a random password generator which includes options for including uppcase and lowercase letter, numbers, and special characters while staying within the length range of 8 and 128.
 
@@ -12,7 +15,7 @@ I have built a random password generator which includes options for including up
 
 [GitHub Profile] (https://github.com/belle-witch)
 [Email] (ravenclaw946@gmail.com)
-[Password Generator Link] ()
+[Password Generator Link] (https://belle-witch.github.io/OH-Password-Generator/)
 #MIT License
 Copyright <2021>
 
