@@ -9,7 +9,7 @@ const includeLowercase = document.getElementById
   ('include-lowercase')
 const includeNumbers = document.getElementById
   ('include-numbers')
-const IncludeSpecialcharacters = document.getElementById
+const includeSpecialcharacters = document.getElementById
   ('include-specialcharacters')
 const form = document.getElementById('passwordGeneratorForm')
 const password = document.getElementById('password')
@@ -27,16 +27,16 @@ const Specialchar = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-",
 characterAmount.addEventListener('input', syncCharacterAmount)
 characterRange.addEventListener('input', syncCharacterAmount)
 
-form.addEventListener('submit', e => {
-  e.preventDefault()
-  const characterAmount = characterAmount.value
-  const includeUppercase = includeUppercase.checked
-  const includeLowercase = includeLowercase.checked
-  const includeNumbers = includeNumbers.checked
-  const includeSpecialcharacters = includeSpecialcharacters.checked
-  const password = generatePassword(characterAmount, includeUppercase, includeLowercase, includeNumbers, includeSpecialcharacters)
-  passwordDisplay.innerText = password
-})
+// form.addEventListener('submit', e => {
+//   e.preventDefault()
+//   const characterAmount = characterAmount.value
+//   const includeUppercase = includeUppercase.checked
+//   const includeLowercase = includeLowercase.checked
+//   const includeNumbers = includeNumbers.checked
+//   const includeSpecialcharacters = includeSpecialcharacters.checked
+//   const password = generatePassword(characterAmount, includeUppercase, includeLowercase, includeNumbers, includeSpecialcharacters)
+//   passwordDisplay.innerText = password
+// })
 
 // const characterRange = document.getElementById
 //   ('characterRange')
@@ -46,36 +46,34 @@ form.addEventListener('submit', e => {
 var generateBtn = document.querySelector("#generate");
 
 
-// var slideValue = 0;
+
 //do not touch
-function synccharacterAmount(e) {
+function syncCharacterAmount(e) {
   const value = e.target.value
-  slideValue = value;
+  
 
   characterAmount.value = value
   characterRange.value = value
 }
 
 
-function generatePassword(characterAmount, includeUppercase, includeLowercase, includeNumbers, includeSpecialcharacters) {
-  let characterAmount = ['value'];
-  if includeUppercase = ['UpperCase'];
-  if includeLowercase = ['LowerCase'];
-  if includeNumbers = ['Numbers'];
-  if includeSpecialcharacters = ['Specialchar'];
-  var characterAmount = characterAmount.value;
-  for (let i = 0; i < characterAmount; i++) {
-    result += Math.floor(Math.random() *
-      characterAmount)]
-      generatePassword.push(String.)
+function generatePassword() {
+  const lengthOfPassword = characterAmount.value
+  const Uppercase = includeUppercase.checked
+  const Lowercase = includeLowercase.checked
+  const Numbers = includeNumbers.checked
+  const Specialcharacters = includeSpecialcharacters.checked
+  if (!includeUppercase && !includeLowercase && !includeNumbers && !includeSpecialcharacters){
+    return 'invalid input'
   }
-  return result;
 }
+
+  
 
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword(characterAmount, includeUppercase, includeLowercase, includeNumbers, includeSpecialcharacters);
+  var password = generatePassword()
   var passwordText = document.querySelector("#password");
 
 
