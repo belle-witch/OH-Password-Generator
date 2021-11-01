@@ -4,7 +4,7 @@
 
 
 #Project Description
-I have built a random password generator which includes options for including uppcase and lowercase letter, numbers, and special characters while staying within the length range of 8 and 128.
+I have built a random password generator which includes options for including uppercase and lowercase letters, numbers, and special characters while staying within the length range of 8 and 128.
 
 #Built With
 -HTML
@@ -12,10 +12,10 @@ I have built a random password generator which includes options for including up
 -JavaScript
 
 #Author
-
 [GitHub Profile] (https://github.com/belle-witch)
 [Email] (ravenclaw946@gmail.com)
 [Password Generator Link] (https://belle-witch.github.io/OH-Password-Generator/)
+
 #MIT License
 Copyright <2021>
 
