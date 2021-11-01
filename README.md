@@ -3,20 +3,20 @@
 ![PGScreenshot](https://user-images.githubusercontent.com/86988180/139620410-6738fd7b-0af9-4603-a58a-d9e61b04ba53.jpg)
 
 
-#Project Description
+#Project Description  
 I have built a random password generator which includes options for including uppercase and lowercase letters, numbers, and special characters while staying within the length range of 8 and 128.
 
-#Built With
--HTML
--CSS
--JavaScript
+#Built With  
+-HTML  
+-CSS  
+-JavaScript  
 
-#Author
+#Author  
 [GitHub Profile] (https://github.com/belle-witch)
 [Email] (ravenclaw946@gmail.com)
 [Password Generator Link] (https://belle-witch.github.io/OH-Password-Generator/)
 
-#MIT License
+#MIT License  
 Copyright <2021>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
