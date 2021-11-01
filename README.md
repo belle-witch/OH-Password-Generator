@@ -12,8 +12,8 @@ I have built a random password generator which includes options for including up
 -JavaScript  
 
 #Author  
-[GitHub Profile] (https://github.com/belle-witch)
-[Email] (ravenclaw946@gmail.com)
+[GitHub Profile] (https://github.com/belle-witch)  
+[Email] (ravenclaw946@gmail.com)  
 [Password Generator Link] (https://belle-witch.github.io/OH-Password-Generator/)
 
 #MIT License  
